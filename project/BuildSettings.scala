@@ -20,7 +20,7 @@ object BuildSettings {
     organization  := "com.snowplowanalytics",
     version       := "0.2.0",
     description   := "Simple word count job for the Spark cluster computing platform, ready for Amazon EMR",
-    scalaVersion  := "2.9.3", // -> 2.10.0 when Spark is ready
+    scalaVersion  := "2.10.4", // -> 2.10.0 when Spark is ready
     scalacOptions := Seq("-deprecation", "-encoding", "utf8"),
     resolvers     ++= Dependencies.resolutionRepos
   )
@@ -48,7 +48,7 @@ object BuildSettings {
       ) 
       cp filter { jar => excludes(jar.data.getName) }
     },
-    
+
     mergeStrategy in assembly <<= (mergeStrategy in assembly) {
       (old) => {
         // case "project.clj" => MergeStrategy.discard // Leiningen build files

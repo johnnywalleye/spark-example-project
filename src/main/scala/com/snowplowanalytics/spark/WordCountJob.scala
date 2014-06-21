@@ -23,7 +23,7 @@ object WordCountJob {
     WordCount.execute(
       master    = sys.env("MASTER"),
       args      = args.toList,
-      jars      = SparkContext.jarOfObject(this)
+      jars      = List(SparkContext.jarOfObject(this).get)
     )
 
     // Exit with success
