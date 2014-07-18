@@ -28,7 +28,9 @@ object SparkExampleProjectBuild extends Build {
     .settings(buildSettings: _*)
     .settings(
       libraryDependencies ++= Seq(
+        Libraries.scopt,
         Libraries.sparkCore,
+        Libraries.sparkMLlib,
         Libraries.guava,
         Libraries.specs2
         // Add your additional libraries here (comma-separated)...

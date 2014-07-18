@@ -19,6 +19,7 @@ object Dependencies {
   )
 
   object V {
+    val scopt     = "3.2.0"
     val spark     = "1.0.0"
     val specs2    = "1.13" // -> "1.13" when we bump to Scala 2.10.0
     val guava     = "11.0.1"
@@ -26,7 +27,9 @@ object Dependencies {
   }
 
   object Libraries {
+    val scopt        = "com.github.scopt"           %% "scopt"                 % V.scopt        % "provided"
     val sparkCore    = "org.apache.spark"           %% "spark-core"            % V.spark        % "provided"
+    val sparkMLlib   = "org.apache.spark"           %% "spark-mllib"           % V.spark        % "provided"
     // Add additional libraries from mvnrepository.com (SBT syntax) here...
 
     // Scala (test only)
