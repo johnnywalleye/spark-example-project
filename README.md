@@ -64,20 +64,20 @@ Once the output has completed, you should see a folder structure like this in yo
      
 After downloading and catting together the part files (cat part-0* > part-all) under predictions-and-labels, you should see something like this:
 
- (0.0,0.0)
- (0.0,0.0)
- (1.0,1.0)
- (0.0,0.0)
- (1.0,1.0)
- (1.0,1.0)
- (1.0,1.0)
- (0.0,0.0)
- (0.0,0.0)
- (0.0,0.0)
- (0.0,0.0)
- (0.0,0.0)
- (0.0,0.0)
- (1.0,1.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (1.0,1.0)
+    (0.0,0.0)
+    (1.0,1.0)
+    (1.0,1.0)
+    (1.0,1.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (0.0,0.0)
+    (1.0,1.0)
 
 
 ## Further reading
