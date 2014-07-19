@@ -62,7 +62,7 @@ Once the output has completed, you should see a folder structure like this in yo
           |-- part-00000
           +-- part-00001
      
-After downloading and catting together the part files (cat part-0* > part-all) under predictions-and-labels, you should see something like this:
+After downloading and catting together the part files `cat part-0* > part-all` under predictions-and-labels, you should see something like this:
 
     (0.0,0.0)
     (0.0,0.0)
