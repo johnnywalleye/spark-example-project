@@ -90,11 +90,6 @@ To invoke/schedule your Spark job on EMR, check out:
 * [Boto] [boto] for Python
 * [Lemur] [lemur] for Clojure
 
-## Roadmap
-
-* Bump to Spark 0.9.x when this is supported by EMR ([#1] [issue-1]).
-* Change output from tuples to TSV ([#2] [issue-2])
-
 ## Further reading
 
 * [Run Spark and Shark on Amazon Elastic MapReduce] [aws-spark-tutorial]
