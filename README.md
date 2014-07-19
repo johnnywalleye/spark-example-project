@@ -87,7 +87,7 @@ After downloading and catting together the part files (`cat part-0* > part-all`)
 
 ## Copyright and license
 
-Copyright 2013-2014 Snowplow Analytics Ltd, Intent Media Inc.
+Copyright 2013-2014 Snowplow Analytics Ltd, 2014 Intent Media Inc.
 
 Licensed under the [Apache License, Version 2.0] [license] (the "License");
 you may not use this software except in compliance with the License.
