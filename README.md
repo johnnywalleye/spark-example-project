@@ -6,7 +6,7 @@ This is a simple binary classification job written in Scala for the [Spark] [spa
 
 Modifications to the original Snowplow project were made by the Data team at [Intent Media] [intent].
 
-_See also (from Snowplow Analytics):_ [Spark Word Count Example] [spark-word-count-project] [Scalding Example Project] [scalding-example-project] | [Cascalog Example Project] [cascalog-example-project]
+_See also (from Snowplow Analytics):_ [Spark Word Count Example] [spark-word-count-project] | [Scalding Example Project] [scalding-example-project] | [Cascalog Example Project] [cascalog-example-project]
 
 ## Building
 
