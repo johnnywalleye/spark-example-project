@@ -20,16 +20,6 @@ The 'fat jar' is now available as:
 
     target/spark-example-project-0.2.0.jar
 
-## Unit testing
-
-The `assembly` command above runs the test suite - but you can also test the word count job manually with:
-
-    $ sbt test
-    <snip>
-    [info] + A WordCount job should
-    [info]   + count words correctly
-    [info] Passed: : Total 1, Failed 0, Errors 0, Passed 1, Skipped 0
-
 ## Running the Logistic Regression on Amazon EMR
 
 ### Prepare
